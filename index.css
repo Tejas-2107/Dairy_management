@@ -1,0 +1,41 @@
+body{
+    margin: 0%;
+    background-color: rgb(224, 222, 222);
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+}
+.heading{ 
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+.row{
+    width:100%;
+}
+.left{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('dairy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+     
+}
+.right{
+    height: 100vh;
+}
+form{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;  
+}
+.btn{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color:black; 
+    }
+}
